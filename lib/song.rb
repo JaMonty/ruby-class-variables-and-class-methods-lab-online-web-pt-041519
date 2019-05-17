@@ -1,4 +1,4 @@
 class Song
 end
 
-attr_accessor 
+attr_accessor :name, :artist, :genre
