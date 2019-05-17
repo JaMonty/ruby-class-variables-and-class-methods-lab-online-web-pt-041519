@@ -26,4 +26,4 @@ end
     def self.artists
   @@artists.unique
 end
-end
+
