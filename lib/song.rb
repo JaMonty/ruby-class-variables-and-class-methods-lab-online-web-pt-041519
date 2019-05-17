@@ -1,6 +1,6 @@
 class Song
 end
 
-Song.new
+Song.new("Lucifer", "Jay-Z", "rap" )
 
 attr_accessor 
