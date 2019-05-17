@@ -22,3 +22,7 @@ end
   @@count
 end
 end
+
+def self.artist
+  @@artist
+end
