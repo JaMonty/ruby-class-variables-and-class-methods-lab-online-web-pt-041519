@@ -27,9 +27,16 @@ end
   @@artists.uniq
 end
   
-  def self.genres
+   def self.genres
     @@genres.uniq
 end
 
-
+    def self.genre_count
+        out = {}
+        @@genres.each do |el|
+            out[el] ||= 0
+            out[el] += 1
+        end
+        out
+    end
 end
