@@ -23,6 +23,6 @@ end
 end
 end
 
-def self.artist
-  @@artist.unique
+def self.artists
+  @@artists.unique
 end
