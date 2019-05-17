@@ -40,5 +40,12 @@ end
         out
     end
     
-    
+    def self.artist_count
+        out = {}
+        @@artists.each do |el|
+            out[el] ||= 0
+            out[el] += 1
+        end
+        out
+    end
 end
